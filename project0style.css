@@ -1,0 +1,45 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+h2 {
+    color: rgb(141, 56, 89);
+    text-align: left;
+  }
+  
+  @media (min-width: 500px) {
+    body {
+        background-color: rgb(250, 246, 246);
+    }
+}
+
+@media (max-width: 499px) {
+  body {
+    background-color: rgb(174, 174, 177);
+  }
+}
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+td {
+  background-color: lightgray;
+}
+
+.row > div {
+  padding: 20px;
+  background-color: rgb(124, 218, 218);
+  border: 1px solid black;
+}
+ul {
+  font-size: 14px;
+  color: color;
+}
